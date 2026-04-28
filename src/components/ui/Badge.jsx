@@ -7,7 +7,7 @@ export default function Badge({
 }) {
   return (
     <span 
-      className={`bg-[#f5f5f5] text-[#1a1a1a] text-sm px-3 py-1 rounded-full font-medium inline-block ${className}`}
+      className={`bg-primary/10 text-primary dark:bg-primary/20 dark:text-primary text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-primary/10 dark:border-primary/20 inline-block ${className}`}
       {...props}
     >
       {children}

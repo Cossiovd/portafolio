@@ -1,9 +1,7 @@
 export const skillCategories = [
     {
         title: "Frontend",
-        iconPaths: [
-            "M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-        ],
+        iconName: "FaCode",
         skills: [
             "HTML",
             "CSS",
@@ -14,9 +12,7 @@ export const skillCategories = [
     },
     {
         title: "UX/UI & Diseño",
-        iconPaths: [
-            "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-        ],
+        iconName: "FaPalette",
         skills: [
             "Figma",
             "UX/UI Design",
@@ -26,9 +22,7 @@ export const skillCategories = [
     },
     {
         title: "Arquitectura & Análisis",
-        iconPaths: [
-            "M3 7h18M3 12h18M3 17h18"
-        ],
+        iconName: "FaProjectDiagram",
         skills: [
             "Arquitectura de Software",
             "Análisis de Requerimientos",
@@ -38,9 +32,7 @@ export const skillCategories = [
     },
     {
         title: "Gestión & Metodologías",
-        iconPaths: [
-            "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
-        ],
+        iconName: "FaTasks",
         skills: [
             "Metodologías Ágiles",
             "Scrum",
@@ -52,9 +44,7 @@ export const skillCategories = [
     },
     {
         title: "CMS & E-commerce",
-        iconPaths: [
-            "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17"
-        ],
+        iconName: "FaShoppingCart",
         skills: [
             "WordPress",
             "WooCommerce",
@@ -63,9 +53,7 @@ export const skillCategories = [
     },
     {
         title: "Otros",
-        iconPaths: [
-            "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0"
-        ],
+        iconName: "FaTools",
         skills: [
             "SQL",
             "Git",

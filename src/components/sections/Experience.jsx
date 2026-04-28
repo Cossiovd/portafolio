@@ -1,45 +1,56 @@
-import Card from '../ui/Card';
+import { FaBriefcase } from 'react-icons/fa';
 import { experiences } from '../../data/experiences';
+import Reveal from '../ui/Reveal';
 
 export default function Experience() {
-    return (
-        <section id="experiencia" className="py-20 px-6 md:px-16 lg:px-32 bg-white">
-            <div className="max-w-6xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4 text-center">
-                    Experiencia profesional
-                </h2>
-                <div className="h-1 w-24 bg-[#2563eb] mx-auto mb-12 rounded-full"></div>
+  return (
+    <section id="experiencia" className="py-24 px-6 md:px-16 lg:px-32 bg-white dark:bg-dark transition-colors duration-300">
+      <div className="max-w-4xl mx-auto">
+        <Reveal>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-dark dark:text-white mb-4">
+              Experiencia
+            </h2>
+            <div className="h-1.5 w-24 bg-primary mx-auto rounded-full"></div>
+          </div>
+        </Reveal>
 
-                <div className="space-y-8">
-                    {experiences.map((experience) => (
-                        <Card
-                            key={experience.id}
-                            className="bg-[#f8f9fa] p-8 !rounded-2xl"
-                        >
-                            <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
-                                <div>
-                                    <h3 className="text-2xl font-bold text-[#1a1a1a] mb-2">
-                                        {experience.title}
-                                    </h3>
-                                    <h4 className="text-xl text-[#2563eb] mb-3">
-                                        {experience.company}
-                                    </h4>
-                                    <p className="text-gray-600 font-medium">
-                                        {experience.period}
-                                    </p>
-                                </div>
-                                <div className="bg-white px-4 py-2 rounded-lg border border-gray-200">
-                                    <p className="text-[#2563eb] font-medium">{experience.company}</p>
-                                </div>
-                            </div>
+        <div className="relative">
+          <div className="absolute left-5 md:left-8 top-0 bottom-0 w-0.5 bg-primary/20 dark:bg-primary/10 -translate-x-1/2"></div>
 
-                            <p className="text-gray-700 mt-4 leading-relaxed text-lg">
-                                {experience.description}
-                            </p>
-                        </Card>
-                    ))}
+          <div className="space-y-16">
+            {experiences.map((experience, index) => (
+              <Reveal key={experience.id} delay={index * 0.1}>
+                <div className="relative flex gap-8 md:gap-12 items-start group">
+                  <div className="relative z-10 shrink-0 w-10 h-10 md:w-16 md:h-16 bg-primary border-4 border-white dark:border-dark rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
+                    <FaBriefcase className="text-white text-sm md:text-xl" />
+                  </div>
+                  
+                  <div className="flex-1 bg-light dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-[24px] p-8 md:p-10 w-full transition-all duration-300 hover:-translate-y-1 hover:shadow-xl group-hover:border-primary/30">
+                    <h3 className="text-2xl md:text-3xl font-bold text-dark dark:text-white mb-3">
+                      {experience.title}
+                    </h3>
+                    
+                    <div className="flex flex-wrap items-center gap-3 mb-6">
+                      <span className="text-primary font-bold text-lg">
+                        {experience.company}
+                      </span>
+                      <span className="text-dark/30 dark:text-white/20 hidden sm:inline text-xl">|</span>
+                      <span className="text-dark/50 dark:text-white/40 text-base font-medium bg-white/50 dark:bg-white/5 px-3 py-1 rounded-lg">
+                        {experience.period}
+                      </span>
+                    </div>
+                    
+                    <p className="text-dark/70 dark:text-white/70 text-lg leading-relaxed">
+                      {experience.description}
+                    </p>
+                  </div>
                 </div>
-            </div>
-        </section>
-    );
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
