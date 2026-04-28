@@ -21,10 +21,7 @@ export default function Hero() {
           <h1 className="text-dark dark:text-white text-4xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold leading-tight font-['Inter',sans-serif]">
             Dayana Cossio Vargas
           </h1>
-        </Reveal>
-
-        <Reveal delay={0.3}>
-          <h2 className="text-dark/60 dark:text-white/60 text-xl sm:text-2xl md:text-3xl lg:text-[40px] font-normal mt-2 leading-snug">
+          <h2 className="text-dark/60 dark:text-white/60 text-sm sm:text-lg md:text-xl lg:text-[24px] font-normal mt-2 leading-snug">
             Ingeniera de Software | Soluciones Digitales | Frontend & UX/UI | Gestión de Proyectos
           </h2>
         </Reveal>
@@ -33,17 +30,6 @@ export default function Hero() {
           <p className="text-dark/80 dark:text-white/80 text-lg md:text-xl leading-relaxed max-w-3xl mt-4">
             Enfocada en el diseño y construcción de soluciones digitales, combinando desarrollo frontend y experiencia de usuario. Cuento con experiencia en análisis de requerimientos, diseño de soluciones y participación en el ciclo de vida de proyectos bajo metodologías ágiles.
           </p>
-        </Reveal>
-        
-        <Reveal delay={0.5}>
-          <div className="flex flex-wrap gap-4 mt-8">
-            <Button variant="primary" className="px-8 py-3.5 text-lg w-full sm:w-auto justify-center">
-              Ver proyectos
-            </Button>
-            <Button variant="outline" className="px-8 py-3.5 text-lg w-full sm:w-auto justify-center dark:border-white/20 dark:text-white dark:hover:bg-white/5">
-              Contactar
-            </Button>
-          </div>
         </Reveal>
       </div>
     </section>

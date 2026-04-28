@@ -25,23 +25,23 @@ export default function Skills() {
           </div>
         </Reveal>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => {
             const Icon = iconMap[category.iconName];
             return (
               <Reveal key={index} delay={index * 0.1}>
-                <Card 
+                <Card
                   className="p-8 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 group border border-black/5 dark:border-white/10 dark:bg-white/5"
                 >
                   <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-8 transition-colors duration-300 group-hover:bg-primary group-hover:text-white">
                     {Icon && <Icon className="text-3xl text-primary transition-colors duration-300 group-hover:text-white" />}
                   </div>
-                  
+
                   <h3 className="text-xl font-bold text-dark dark:text-white mb-6 group-hover:text-primary transition-colors duration-300">
                     {category.title}
                   </h3>
-                  
-                  <ul className="space-y-4">
+
+                  <ul className="space-y-3">
                     {category.skills.map((skill, i) => (
                       <li key={i} className="flex items-center gap-3 text-dark/70 dark:text-white/60 font-medium">
                         <div className="w-2 h-2 bg-primary/40 rounded-full group-hover:bg-primary transition-colors duration-300"></div>
