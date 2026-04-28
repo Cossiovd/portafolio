@@ -1,31 +1,17 @@
-export const experiences = 
-[
+export const experiences =
+    [
         {
             id: 1,
-            title: "Ingeniera de Software",
-            company: "InnoSys Soluciones Tecnológicas",
-            period: "Enero 2024 - Presente",
-            description: "Desarrollo de soluciones tecnológicas innovadoras para clientes corporativos, implementando tecnologías modernas y metodologías ágiles."
+            title: "Arquitecta de Software",
+            company: "Universidad CES",
+            period: "Enero 2022 - Actualidad",
+            description: "Análisis de requerimientos, diseño e implementación de soluciones web institucionales y e-commerce. Elaboración de prototipos en Figma y gestión del ciclo de vida de proyectos tecnológicos bajo metodologías ágiles"
         },
         {
             id: 2,
-            title: "Desarrolladora Frontend",
-            company: "Web Creations Inc.",
-            period: "Marzo 2022 - Diciembre 2023",
-            description: "Creación de interfaces de usuario atractivas y responsivas para diversas plataformas web, trabajando con React, Vue.js y tecnologías modernas."
-        },
-        {
-            id: 3,
-            title: "Diseñadora UX/UI",
-            company: "Creative Solutions Agency",
-            period: "Junio 2021 - Febrero 2022",
-            description: "Diseño de experiencias de usuario intuitivas y atractivas, realizando investigación de usuarios, prototipado y pruebas de usabilidad."
-        },
-        {
-            id: 4,
-            title: "Freelance Web Developer",
-            company: "Autónomo",
-            period: "2019 - 2024",
-            description: "Desarrollo de sitios web personalizados para pequeñas y medianas empresas, incluyendo tiendas en línea, portafolios y aplicaciones web."
+            title: "Practicante Multimedia TI",
+            company: "Universidad CES",
+            period: "Mayo 2021 - Noviembre 2021",
+            description: "Soporte y mantenimiento de sitios web en WordPress, administración de hosting y apoyo en la ejecución de proyectos tecnológicos"
         }
-];
+    ];

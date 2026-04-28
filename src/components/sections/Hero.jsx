@@ -12,10 +12,10 @@ export default function Hero() {
           Dayana Cossio Vargas
         </h1>
         <h2 className="text-[#717182] text-2xl md:text-3xl lg:text-[40px] font-normal mt-2">
-          Frontend Developer | UX/UI | WordPress & E-commerce
+          Ingeniera de Software | Soluciones Digitales | Frontend & UX/UI | Gestión de Proyectos
         </h2>
         <p className="text-[rgba(26,26,26,0.8)] text-lg md:text-xl leading-relaxed max-w-3xl mt-4">
-          Ingeniera de Software especializada en crear experiencias web excepcionales. Me enfoco en construir productos digitales funcionales, accesibles y centrados en el usuario, combinando diseño UX/UI con desarrollo frontend.
+          Ingeniera de Software enfocada en el diseño y construcción de soluciones digitales, combinando desarrollo frontend y experiencia de usuario. Cuento con experiencia en análisis de requerimientos, diseño de soluciones y participación en el ciclo de vida de proyectos bajo metodologías ágiles, orientando el desarrollo a productos funcionales, escalables y alineados al negocio.
         </p>
         
         <div className="flex flex-wrap gap-4 mt-8">

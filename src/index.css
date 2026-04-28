@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-gray-900 bg-white selection:bg-blue-200 selection:text-blue-900;
+  }
+}
+
+@layer components {
+  /* Aquí puedes agregar clases de componentes reutilizables */
+}
+
+@layer utilities {
+  /* Aquí puedes agregar utilidades personalizadas */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Estilos personalizados para el scrollbar (opcional) */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

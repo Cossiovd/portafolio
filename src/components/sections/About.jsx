@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '../ui/Button';
 
 export default function About() {
@@ -18,10 +17,14 @@ export default function About() {
                     </h2>
                     <div className="h-1 w-24 bg-[#2563eb] mb-6 rounded-full"></div>
                     <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                        ¡Hola! Soy <strong>Dayana Cossio Vargas</strong>, Ingeniera de Software apasionada por crear experiencias digitales excepcionales. Me encanta combinar diseño y tecnología para construir productos innovadores, accesibles y centrados en el usuario.
+                        ¡Hola! Soy <strong>Dayana Cossio Vargas</strong>, Ingeniera de Software apasionada por el diseño y desarrollo de soluciones digitales. Me enfoco en combinar experiencia de usuario (UX/UI) y desarrollo frontend para construir productos funcionales, accesibles y alineados a las necesidades del negocio.
                     </p>
                     <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                        Con experiencia en desarrollo frontend, diseño UX/UI y soluciones WordPress, me enfoco en ofrecer resultados de alta calidad que impulsen el crecimiento de mis clientes. Mi objetivo es transformar ideas en productos digitales funcionales, atractivos y fáciles de usar.
+                        Cuento con experiencia en análisis de requerimientos, diseño de prototipos y desarrollo de plataformas web, incluyendo soluciones en WordPress y e-commerce. Trabajo bajo metodologías ágiles, participando en el ciclo completo de los proyectos, desde la definición hasta la implementación.
+
+                    </p>
+                    <p className="text-gray-700 leading-relaxed text-lg mb-6">
+                        Mi objetivo es transformar ideas en productos digitales eficientes, escalables y centrados en el usuario, que generen valor real para las organizaciones.
                     </p>
                     <Button className="px-8 py-3.5 text-lg">
                         Descargar CV
