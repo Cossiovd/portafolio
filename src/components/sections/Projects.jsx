@@ -60,11 +60,10 @@ export default function Projects() {
                                             Ver detalle
                                         </button>
                                         <a
-                                            href="#"
+                                            href={project.repository}
                                             className="flex items-center gap-2 text-dark/50 dark:text-white/50 font-medium hover:text-dark dark:hover:text-white transition-colors"
                                         >
-                                            <FaGithub className="text-lg" />
-                                            Código
+                                            <FaGithub className="text-lg" /> {project.repository ? "Código" : ""}
                                         </a>
                                     </div>
                                 </div>
@@ -110,11 +109,11 @@ export default function Projects() {
                             </div>
 
                             <div className="pt-6 border-t border-black/5 dark:border-white/5 flex gap-4">
-                                <Button className="flex-1 justify-center gap-2">
-                                    <FaExternalLinkAlt /> Visitar Sitio Web
+                                <Button className="flex-1 justify-center gap-2" onClick={() => window.open(selectedProject.link)}>
+                                    <FaExternalLinkAlt /> {selectedProject.link ? "Visitar Sitio Web" : ""}
                                 </Button>
-                                <Button variant="outline" className="flex-1 justify-center gap-2 dark:border-white/20 dark:text-white dark:hover:bg-white/5">
-                                    <FaGithub /> Repositorio
+                                <Button variant="outline" className="flex-1 justify-center gap-2 dark:border-white/20 dark:text-white dark:hover:bg-white/5" onClick={() => window.open(selectedProject.repository)}>
+                                    <FaGithub /> {selectedProject.repository ? "Código" : ""}
                                 </Button>
                             </div>
                         </div>
