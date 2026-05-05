@@ -7,6 +7,12 @@ function App() {
     <ThemeProvider>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/inicio" element={<Home />} />
+        <Route path="/proyectos" element={<Home />} />
+        <Route path="/sobre-mi" element={<Home />} />
+        <Route path="/habilidades" element={<Home />} />
+        <Route path="/experiencia" element={<Home />} />
+        <Route path="/contacto" element={<Home />} />
       </Routes>
     </ThemeProvider>
   )

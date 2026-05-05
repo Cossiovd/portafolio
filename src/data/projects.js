@@ -5,8 +5,9 @@ export const projects = [
         long_description: "Aplicación móvil para intercambio de conocimientos",
         tags: ["Fultter", "Dart", "Material Design"],
         image: "https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080097569.jpg",
-        repository: "https://github.com/Cossiovd/RedHab",
-        link: ""
+        repository: "https://github.com/dcossiodev/RedHab",
+        link: "",
+        status: ""
     },
     {
         title: "PetSalud",
@@ -14,8 +15,9 @@ export const projects = [
         long_description: "Administración de información para veterinaria, gestión de especialistas y servicios",
         tags: ["Vite", "React", "Tailwind CSS"],
         image: "https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080097569.jpg",
-        repository: "https://github.com/Cossiovd/vet",
-        link: ""
+        repository: "https://github.com/dcossiodev/vet",
+        link: "",
+        status: "Publicado (demo)"
     },
     {
         title: "Ecommerce",
@@ -23,8 +25,9 @@ export const projects = [
         long_description: "VetCare es una plataforma ecommerce para la venta de productos para mascotas",
         tags: ["React", "JavaScript", "Tailwind CSS", "Firebase", "React Router"],
         image: "https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080097569.jpg",
-        repository: "https://github.com/Cossiovd/ecommerce",
-        link: "https://cossiovd.github.io/ecommerce/"
+        repository: "https://github.com/dcossiodev/ecommerce",
+        link: "https://cossiovd.github.io/ecommerce/",
+        status: "Publicado (demo)"
     },
     {
         title: "The Fluid Mentor",
@@ -32,7 +35,8 @@ export const projects = [
         long_description: "The Fluid Mentor es una plataform para descubrir el camino profesional que mejor se adapta a tus talentos y aspiraciones con la guia experar de nuestros tutores y IA.",
         tags: ["React", "JavaScript", "Tailwind CSS", "Firebase", "React Router"],
         image: "https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080097569.jpg",
-        repository: "https://github.com/Cossiovd",
-        link: ""
+        repository: "https://github.com/dcossiodev",
+        link: "",
+        status: "Prototipo en validación"
     }
 ];

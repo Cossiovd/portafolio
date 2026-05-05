@@ -33,6 +33,12 @@ export default function Projects() {
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                     />
                                     <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                    {project.status && (
+                                        <div className="absolute top-4 right-4 px-3 py-1 bg-white/90 dark:bg-dark/70 backdrop-blur-md rounded-full text-[10px] uppercase tracking-wider font-bold text-dark dark:text-primary shadow-sm border border-black/5 dark:border-primary/20 transition-colors duration-300">
+                                            {project.status}
+                                        </div>
+                                    )}
+
                                 </div>
 
                                 <div className="p-8 flex flex-col flex-grow">
