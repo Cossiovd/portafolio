@@ -26,11 +26,11 @@ export default function Projects() {
                     {projects.map((project, index) => (
                         <Reveal key={index} delay={index * 0.1}>
                             <Card className="group h-full flex flex-col border border-black/5 dark:border-white/10 overflow-hidden hover:shadow-2xl transition-all duration-500">
-                                <div className="relative h-56 w-full overflow-hidden">
+                                <div className="relative h-56 w-full overflow-hidden bg-gray-100 dark:bg-white/5">
                                     <img
                                         src={project.image}
                                         alt={project.title}
-                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                        className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
                                     />
                                     <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                     {project.status && (
@@ -87,11 +87,11 @@ export default function Projects() {
             >
                 {selectedProject && (
                     <div className="flex flex-col gap-8">
-                        <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-lg">
+                        <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-lg bg-gray-100 dark:bg-white/5">
                             <img
                                 src={selectedProject.image}
                                 alt={selectedProject.title}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain"
                             />
                         </div>
 
