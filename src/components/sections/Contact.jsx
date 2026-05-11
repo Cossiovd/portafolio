@@ -14,7 +14,7 @@ const contactMethods = [
     name: 'GitHub',
     description: 'Explora mis repositorios y contribuciones de código.',
     icon: <FaGithub />,
-    link: 'https://github.com/Cossiovd',
+    link: 'https://github.com/dcossiodev',
     color: 'bg-[#333]',
     action: 'Ver Proyectos'
   },
@@ -59,25 +59,25 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {contactMethods.map((method, index) => (
             <Reveal key={method.name} delay={index * 0.1}>
-              <a 
-                href={method.link} 
-                target="_blank" 
+              <a
+                href={method.link}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="group block h-full p-8 bg-white dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-3xl shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-500 hover:-translate-y-2"
               >
                 <div className={`w-14 h-14 ${method.color} text-white rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3`}>
                   {method.icon}
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-dark dark:text-white mb-3 flex items-center gap-2">
                   {method.name}
                   <FaExternalLinkAlt className="text-[10px] opacity-0 group-hover:opacity-50 transition-opacity" />
                 </h3>
-                
+
                 <p className="text-dark/60 dark:text-white/60 text-sm leading-relaxed mb-6">
                   {method.description}
                 </p>
-                
+
                 <span className="text-sm font-bold text-primary flex items-center gap-2 mt-auto">
                   {method.action}
                   <span className="w-0 group-hover:w-4 h-[1px] bg-primary transition-all duration-300"></span>
@@ -98,11 +98,11 @@ export default function Contact() {
                 <p className="text-xl font-bold">Medellín, Colombia</p>
               </div>
             </div>
-            
+
             <div className="hidden md:block w-[1px] h-12 bg-white/10"></div>
-            
+
             <div className="text-center md:text-right">
-              <p className="text-white/70 text-lg mb-2 italic">"Construyendo el futuro, una línea de código a la vez."</p>
+              <p className="text-white/70 text-lg mb-2 italic">"Transformando ideas en soluciones digitales funcionales y experiencias centradas en el usuario que simplifican procesos y generan valor."</p>
               <p className="text-primary font-medium text-sm">Disponibilidad para proyectos remotos</p>
             </div>
           </div>
