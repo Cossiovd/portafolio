@@ -17,19 +17,19 @@ export default function About() {
                 <div className="space-y-8">
                     <Reveal>
                         <p className="text-dark/70 dark:text-white/70 leading-relaxed text-lg">
-                            ¡Hola! Soy <strong className="text-dark dark:text-white font-bold">Dayana Cossio Vargas</strong>, Ingeniera de Software apasionada por el diseño y desarrollo de soluciones digitales.
+                            ¡Hola! Soy <strong className="text-dark dark:text-white font-bold">Dayana Cossio Vargas</strong>, Ingeniera de Software apasionada por el diseño y desarrollo de productos digitales centrados en el usuario.
                         </p>
                     </Reveal>
 
                     <Reveal>
                         <p className="text-dark/70 dark:text-white/70 leading-relaxed text-lg">
-                            Me enfoco en combinar experiencia de usuario (UX/UI) y desarrollo frontend para construir productos funcionales, accesibles y alineados a las necesidades del negocio. Cuento con experiencia en análisis de requerimientos, diseño de prototipos y desarrollo de plataformas web.
+                            Me enfoco en integrar experiencia de usuario (UX/UI) y desarrollo frontend para construir soluciones funcionales, accesibles y alineadas a las necesidades del negocio. Cuento con experiencia en análisis de requerimientos, diseño de prototipos y desarrollo de plataformas web, participando en distintas etapas del ciclo de vida de proyectos tecnológicos.
                         </p>
                     </Reveal>
 
                     <Reveal>
                         <p className="text-dark/70 dark:text-white/70 leading-relaxed text-lg">
-                            Mi objetivo es transformar ideas en productos digitales eficientes, escalables y centrados en el usuario, que generen valor real para las organizaciones. Trabajo bajo metodologías ágiles, participando en el ciclo completo de los proyectos.
+                            Mi objetivo es transformar ideas en productos eficientes, escalables y orientados a generar valor real para las organizaciones. Trabajo bajo metodologías ágiles, colaborando en la creación de experiencias digitales intuitivas y soluciones enfocadas en la mejora continua.
                         </p>
                     </Reveal>
                 </div>

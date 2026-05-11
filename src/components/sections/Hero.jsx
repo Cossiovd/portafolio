@@ -16,7 +16,7 @@ export default function Hero() {
             Hola, soy
           </p>
         </Reveal>
-        
+
         <Reveal delay={0.2}>
           <h1 className="text-dark dark:text-white text-4xl sm:text-5xl md:text-6xl lg:text-[72px] font-bold leading-tight font-['Inter',sans-serif]">
             Dayana Cossio Vargas
@@ -28,7 +28,7 @@ export default function Hero() {
 
         <Reveal delay={0.4}>
           <p className="text-dark/80 dark:text-white/80 text-lg md:text-xl leading-relaxed max-w-3xl mt-4">
-            Enfocada en el diseño y construcción de soluciones digitales, combinando desarrollo frontend y experiencia de usuario. Cuento con experiencia en análisis de requerimientos, diseño de soluciones y participación en el ciclo de vida de proyectos bajo metodologías ágiles.
+            Enfocada en el diseño y construcción de soluciones digitales funcionales, accesibles y centradas en el usuario. Cuento con experiencia desarrollo frontend, análisis de requerimientos, diseño de soluciones, participando en diferentes etapas del ciclo de vida de proyectos bajo metodologías ágiles.
           </p>
         </Reveal>
       </div>

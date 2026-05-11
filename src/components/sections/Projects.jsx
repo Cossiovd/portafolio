@@ -97,6 +97,10 @@ export default function Projects() {
 
                         <div className="space-y-6">
                             <div>
+                                <h4 className="text-lg font-bold text-dark dark:text-white mb-3 uppercase tracking-wider">Objetivo</h4>
+                                <p className="text-dark/70 dark:text-white/70 text-lg leading-relaxed">{selectedProject.objective}</p>
+                            </div>
+                            <div>
                                 <h4 className="text-lg font-bold text-dark dark:text-white mb-3 uppercase tracking-wider">Sobre el proyecto</h4>
                                 <p className="text-dark/70 dark:text-white/70 text-lg leading-relaxed">
                                     {selectedProject.long_description}
